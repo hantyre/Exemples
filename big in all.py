@@ -1,4 +1,7 @@
 numbers = [10, 20, 5, 100, 50]
+current_max_number = numbers[0]
 
-max_all = max(numbers)
-print(max_all)
+for number in numbers:
+    if number > current_max_number:
+        current_max_number = number
+print(current_max_number)

@@ -1,4 +1,5 @@
-numbers = [1, 2 , 3, 4, 5]
-
-all = sum(numbers)
-print(all)
+numbers = [1, 2, 3, 4, 5]
+res = 0
+for el in numbers:
+    res = res + el
+print(res)
